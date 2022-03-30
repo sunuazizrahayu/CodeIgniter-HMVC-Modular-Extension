@@ -10,6 +10,8 @@ Modular Extensions - HMVC makes the CodeIgniter PHP framework modular. Modules a
 
 
 ## Changelog
+### v.0.3
+- Fix deprecated on load other module on php 7.2+
 ### v.0.2
 - Fix load local helper
 ### v.0.1
