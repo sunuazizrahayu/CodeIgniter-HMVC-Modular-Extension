@@ -6,7 +6,7 @@ class MY_Controller extends MX_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		if (!empty($this->form_validation)) {
+		if (@($this->form_validation)) {
 			$this->form_validation->CI =& $this;
 		}
 	}
